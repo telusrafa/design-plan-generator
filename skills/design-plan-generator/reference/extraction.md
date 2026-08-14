@@ -27,11 +27,15 @@ Intake questions — engagement mode, content layers, document shape, direction,
 
 ## 2 — Design problem
 
-- What pain points or complaints does the client state directly?
-- What cause or hypothesis is offered for the problem, versus what's only described as a surface symptom?
-- What user stories, direct stakeholder or user quotes, or named pain points appear in the source? If none, what does the deliverable list imply about the underlying problem?
-- What does the client consider a successful outcome?
-- What kind of problem does the source frame this as — UX, visual/brand, process, or strategic — and what language signals that? This shapes which phases of the work matter most.
+This section is written as four subsections rather than one undifferentiated block — see "Design problem: four subsections" in `writing-the-plan.md` for how they're laid out. Extract into each as follows:
+
+**Framing** — What kind of problem does the source frame this as — UX, visual/brand, process, or strategic — and what language signals that? This shapes which phases of the work matter most.
+
+**Cause/hypothesis** — What cause or hypothesis is offered for the problem, versus what's only described as a surface symptom? Keep this separate from the pain points themselves: a pain point is *what* hurts, a cause is *why*, and conflating them buries the reasoning a designer needs to evaluate.
+
+**Pain points** — What pain points or complaints does the client state directly? What user stories, direct stakeholder or user quotes, or named pain points appear in the source? If none, what does the deliverable list imply about the underlying problem?
+
+**Successful outcome** — What does the client consider a successful outcome?
 
 ## 3 — Stakeholders and project structure
 
