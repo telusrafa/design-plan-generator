@@ -8,9 +8,16 @@ A personal collection of custom [Claude Cowork](https://claude.ai) skills. Each 
 skills/
   design-plan-generator/
     SKILL.md
+    reference/
+      intake.md
+      extraction.md
+      conflicts-and-gaps.md
+      derive.md
+      writing-the-plan.md
+      checklist.md
 ```
 
-Each `SKILL.md` starts with a YAML frontmatter block (`name`, `description`) followed by the full instructions Claude follows when the skill runs.
+Each `SKILL.md` starts with a YAML frontmatter block (`name`, `description`) followed by the core instructions. Larger skills split their step-by-step detail into a `reference/` folder, with `SKILL.md` pointing to the relevant file for each step.
 
 ## Skills
 
