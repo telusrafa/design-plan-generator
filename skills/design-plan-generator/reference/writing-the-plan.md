@@ -9,6 +9,13 @@ Use this structure. Drop sections that have no content rather than including the
 
 ## 1 — Project overview
 ## 2 — Design problem
+[Optional: a short framing description directly below the title, if the
+problem needs a sentence or two of context before the subsections below
+make sense. Skip it when the subsections speak for themselves.]
+### Framing
+### Cause/hypothesis
+### Pain points
+### Successful outcome
 ## 3 — Stakeholders and project structure
 ## 4 — Deliverables and scope
 ## 5 — Constraints
@@ -49,7 +56,40 @@ cited by at least one superscript somewhere above, and every such
 superscript above should resolve to a number here.]
 ```
 
-Section content follows the categories in `extraction.md`. Conflicts the user resolved don't get a section of their own — they're settled facts now, tagged in place inline with what they superseded (see the status vocabulary in `../SKILL.md`). Sections 5, 8, and the gap register are the three with a fixed subsection split — drop any individual subsection if it's empty, same as any other section, but don't merge them back into one undifferentiated list.
+Section content follows the categories in `extraction.md`. Conflicts the user resolved don't get a section of their own — they're settled facts now, tagged in place inline with what they superseded (see the status vocabulary in `../SKILL.md`). Sections 2, 5, 8, and the gap register are the four with a fixed subsection split — drop any individual subsection if it's empty, same as any other section, but don't merge them back into one undifferentiated list.
+
+## Design problem: four subsections
+
+Section 2 is split into four subsections so a designer can scan straight to the one they need rather than reading a wall of mixed reasoning: **Framing**, **Cause/hypothesis**, **Pain points**, **Successful outcome** — see `extraction.md` for what goes in each. Drop any of the four that has no content, same as any other subsection.
+
+An optional short description can sit directly below the `## 2 — Design problem` title, before the first subsection, if the problem genuinely needs a sentence or two of context to make the subsections legible — for instance, naming the product and user at a glance before diving into Framing. Skip it when the subsections are clear on their own; don't manufacture a summary just to fill the space.
+
+```
+## 2 — Design problem
+
+The current member portal is failing the one persona it was built for: a
+time-pressed executive who needs fast peer-benchmarking answers, not a
+content browser.¹
+
+### Framing
+Client language frames this as a content-discoverability problem, not a
+visual-brand one — every named frustration is about finding the right
+research fast, not how the site looks.¹ [Inferred — no visual/brand
+language appears anywhere in the source material.]
+
+### Cause/hypothesis
+The current search is keyword-only with no filtering by content type or
+interest group.¹ [Inferred — this, not visual design, is why members
+report giving up and emailing staff directly instead of searching.]
+
+### Pain points
+"We have no single source of truth for our members" — stated directly by
+the VP of Product Operations.¹
+
+### Successful outcome
+The client considers this successful when staff stop fielding manual
+content requests and members self-serve instead.¹
+```
 
 ## Deliverables: task breakdown
 
