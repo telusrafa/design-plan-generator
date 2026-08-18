@@ -51,7 +51,7 @@ Work through the 8 extraction categories in order: Overview → Design problem �
 Conflicts always go to the user, no exceptions worth spending a slot on. Gaps get sorted into Blocking / Degrading / Cosmetic and only some get asked about. One batched round, conflicts first. Full detail in `reference/conflicts-and-gaps.md`.
 
 ### Pass 4 — Derive
-Build the parts no source document contains: task and subtask decomposition with day estimates, placing those tasks on the actual timeline, choosing what the designer should actually start with, and any secondary proactive suggestions. Everything here is tagged Proposed, never Inferred, with visible reasoning. Full detail in `reference/derive.md`.
+Build the parts no source document contains: task and subtask decomposition with day estimates, placing those tasks on the actual timeline, choosing what the designer should actually start with, any secondary proactive suggestions, and market-research-grounded opportunities meant to wow the client or inspire the designer, even when they fall outside scope. Everything here is tagged Proposed, never Inferred, with visible reasoning. Full detail in `reference/derive.md`.
 
 ### Pass 5 — Write the plan
 Follow the template in `reference/writing-the-plan.md`. Drop sections with no content, except Gaps, which always appears. Sources sit at the very bottom, numbered. Keep it concise, and mix prose with lists deliberately — see "Prose and lists" in that file.
