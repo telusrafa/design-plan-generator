@@ -13,7 +13,7 @@ Run this before delivering the plan:
 - Does every deliverable in Section 4 have a task/subtask breakdown with a day-range estimate (or an explicit one-line reason it was skipped), and is the estimating basis stated once near the top rather than repeated on every line?
 - Does Section 7 actually place Section 4's tasks on the calendar, sprint by sprint or week by week, rather than just restating the phase start/end dates?
 - Did I reconcile each phase's deliverable-day subtotal against its actual available time and staffing in Section 7, and say so if they don't roughly match?
-- Is the timeline presented as a grouped list (or a short table, only if it won't wrap) rather than a week-by-week grid or a chart block that won't render everywhere?
+- Is the timeline presented as a table with deliverables as rows and sprints as columns (falling back to a grouped list only when there are too many deliverables or sprints to stay legible), rather than a Mermaid or similar chart block that won't render everywhere?
 - Are both Section 5 and Section 8 correctly split into General and Design-related, with nothing sitting in the wrong bucket just because it was easier to leave where the source put it?
 - Is the cause/hypothesis kept separate from the pain points themselves in Section 2, rather than the two being merged into one paragraph?
 - Are the gaps correctly split into Operational, Technical, and Strategic, with empty buckets dropped rather than left as empty headers?
