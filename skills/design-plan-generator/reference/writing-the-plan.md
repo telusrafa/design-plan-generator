@@ -21,6 +21,8 @@ make sense. Skip it when the subsections speak for themselves.]
 ### Internal team
 ## 4 — Deliverables and scope
 ## 5 — Constraints
+[Both subsections are bullet lists — one constraint per bullet, tag and
+reasoning inline, no framing paragraph above them.]
 ### General
 ### Design-related
 ## 6 — Design milestones
@@ -138,6 +140,32 @@ The subtotal is as far as Section 4 goes — placing these tasks on the calendar
 
 Skip the task breakdown only for a deliverable that's genuinely atomic and non-design (e.g., a systems-architecture document that's really an engineering artifact the designer just needs to know exists) — say so in one line rather than forcing a checklist onto something that doesn't need one.
 
+## Constraints: a bullet list under each subsection
+
+Section 5 is a checklist, not an argument. A designer reads it once to find out what they can't do, then re-opens it mid-sprint to check a single thing — so both subsections are written as flat bullet lists, one constraint per bullet, tag and reasoning inline. No framing paragraph above the bullets, no prose that absorbs three constraints into a narrative, and no table: constraints don't share a common set of attributes worth comparing across rows.
+
+Each bullet leads with the constraint itself, short enough to scan, followed by whatever the designer needs in order to act on it — a superscript for a Found one, bracketed reasoning for anything else. When an exclusion is conditional rather than hard, say so in the same bullet; that distinction is the most useful thing this section carries (see "Constraints" in `extraction.md`).
+
+```
+## 5 — Constraints
+
+### General
+- Scope changes require a written change order countersigned by both parties —
+  nothing moves on a verbal go-ahead.¹ (§9.1)
+- Client review windows run 5 business days per deliverable.¹ (§9.3)
+- Phase 2 budget isn't committed yet; it sits in next fiscal year. [Inferred —
+  the kickoff notes² mention "next year's cycle" for anything past the pilot.]
+
+### Design-related
+- Must build on the existing CEATI design system; no new visual language.¹
+- WCAG 2.1 AA is the contracted baseline; AAA was quoted as a separate line
+  item.¹ (§6.3)
+- Native mobile apps are out of scope — conditional, not hard: "we could
+  accommodate it, it would add time and cost."¹
+```
+
+Keep the lists flat — a constraint that needs sub-bullets to explain itself is usually two constraints, or one whose explanation belongs in the bracket. A subsection with a single constraint is a one-item list, not a paragraph dressed up to look fuller. This fixed shape is deliberate and overrides the vary-the-format guidance below for Section 5, the same way Section 3's tables do.
+
 ## Timeline: placing the deliverables
 
 Section 7 is not a restatement of the phase start/end dates already Found in Section 4 or Section 1 — it's where every task from Section 4's breakdown actually gets put on the calendar. Group by sprint or week-range, not by deliverable, since a designer reading this wants to know what's happening when.
@@ -190,7 +218,7 @@ Neither format should carry the whole document. A plan written entirely in parag
 - **Reach for prose** when the value is in the connective reasoning, not the items themselves: why the design problem is what it is, how a milestone was inferred from a contract clause, what a stakeholder's frustration implies about priorities. Collapsing that into bullet fragments strips out the "because," which is usually the point.
 - **Reach for a table** only when you have several items that share the same 2–4 attributes and a reader will want to compare across rows — the gap register is the clearest example. Don't reach for a table just because a list has gotten long.
 
-In practice, most sections read best as a short paragraph of framing followed by a list where one is genuinely warranted, occasionally closed out with a sentence that draws the conclusion — paragraph, list, paragraph, not list-only or prose-only. A section that's naturally just two or three sentences doesn't need to manufacture a list to look structured; a section that's naturally a roster or a checklist doesn't need to be dressed up in false narrative. Let the content pick the shape, and vary it enough across the document that no two consecutive sections look identical.
+In practice, most sections read best as a short paragraph of framing followed by a list where one is genuinely warranted, occasionally closed out with a sentence that draws the conclusion — paragraph, list, paragraph, not list-only or prose-only. A section that's naturally just two or three sentences doesn't need to manufacture a list to look structured; a section that's naturally a roster or a checklist doesn't need to be dressed up in false narrative. Let the content pick the shape, and vary it enough across the document that no two consecutive sections look identical. Sections 3 and 5 are the standing exceptions — the roster is always tables, Constraints is always bullet lists — so read the variation rule as applying to everything around them.
 
 ## Length
 

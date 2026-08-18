@@ -15,6 +15,8 @@ Run this before delivering the plan:
 - Did I reconcile each phase's deliverable-day subtotal against its actual available time and staffing in Section 7, and say so if they don't roughly match?
 - Is the timeline presented as a grouped list (or a short table, only if it won't wrap) rather than a week-by-week grid or a chart block that won't render everywhere?
 - Are both Section 5 and Section 8 correctly split into General and Design-related, with nothing sitting in the wrong bucket just because it was easier to leave where the source put it?
+- Is Section 5 a flat bullet list under each subsection — one constraint per bullet, tag and reasoning inline — rather than a framing paragraph, a prose block, or a table?
+- Does every conditional exclusion in Section 5 say so on its own bullet, instead of reading like a hard wall?
 - Is the cause/hypothesis kept separate from the pain points themselves in Section 2, rather than the two being merged into one paragraph?
 - Are the gaps correctly split into Operational, Technical, and Strategic, with empty buckets dropped rather than left as empty headers?
 - Does "Suggested next actions" lead with actual design tasks pulled from Section 4, each with a one-line reason it's near the top — not a list of meetings and confirmations with no design work in it?
