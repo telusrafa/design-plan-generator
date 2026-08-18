@@ -81,6 +81,8 @@ Sort what you find into two buckets as you go — they end up as two separate su
 
 ## 6 — Design milestones
 
+Each milestone ends up as a single bullet in the plan — name, when it lands, what it gates (see "Milestones: a bullet list, chronological" in `writing-the-plan.md`) — so collect those three things together per milestone rather than as scattered notes you'll have to reassemble. Gate status is required output, including its absence: if no source names an approval for a checkpoint, record that here, because "no sign-off named" is what the bullet will have to say.
+
 - Which deliverables double as client-visible checkpoints — sign-off, handoff, review gate?
 - What review or approval checkpoints are named at phase transitions, such as a design review window or a final outbrief? Absent those, what can be inferred from deliverable due dates?
 - Which milestone requires client approval before the next phase can start?

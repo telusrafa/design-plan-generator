@@ -24,6 +24,8 @@ make sense. Skip it when the subsections speak for themselves.]
 ### General
 ### Design-related
 ## 6 — Design milestones
+[A flat chronological bullet list — one milestone per bullet, name first,
+then when it lands and whether it gates the next phase.]
 ## 7 — Timeline
 ## 8 — Additional insights and opportunities
 ### General
@@ -138,6 +140,33 @@ The subtotal is as far as Section 4 goes — placing these tasks on the calendar
 
 Skip the task breakdown only for a deliverable that's genuinely atomic and non-design (e.g., a systems-architecture document that's really an engineering artifact the designer just needs to know exists) — say so in one line rather than forcing a checklist onto something that doesn't need one.
 
+## Milestones: a bullet list, chronological
+
+Section 6 answers one question — what the client sees and signs off on, and when — so it's a flat bullet list in chronological order, one milestone per bullet. Not prose: a paragraph forces a designer to re-read the whole thing to find the one gate they're checking. And not a table either, tempting as a name-and-a-date looks: there are rarely enough milestones to earn columns, and the part that matters most is the gate clause, which is a sentence, not a cell.
+
+Each bullet runs **bold milestone name** → when it lands → what it gates, with the status tag inline exactly as everywhere else: a superscript for Found, a bracket for Inferred, Proposed, or Missing.
+
+Every bullet says whether it's a hard approval gate or just a checkpoint — including when the source names no approval at all. Write that absence out ("review only; no sign-off named"), because silence in this section reads as "no gate" when it usually means "nobody wrote it down," and those two lead a designer to plan very differently.
+
+Order chronologically. A milestone with no date sits where its sequence puts it, with the missing date flagged inline — that's more useful than exiling undated items to the bottom, where their position stops telling the designer anything.
+
+```
+## 6 — Design milestones
+
+- **Discovery outbrief** — end of week 6: research findings and content model
+  presented to the client; sign-off required before Phase 2 starts.¹ (§5.1)
+- **Hi-fi design review** — week 10, exact date not fixed. [Inferred — the SOW¹
+  names a review window per phase but dates only Phase 1.] Review only; no
+  approval gate named.
+- **Final handoff** — no date in any source, and no sign-off named. [Missing —
+  the agency project lead would know whether this is a contractual gate or an
+  internal checkpoint.]
+```
+
+Keep the boundary with Section 7 clean: Section 6 names the client-visible checkpoints and the approval gates between phases, Section 7 places Section 4's tasks on the calendar around them. A milestone list that walks through the whole schedule is doing Section 7's job twice — name the gate and let the timeline carry the sequencing.
+
+Keep the list flat, too — a milestone needing sub-bullets is usually two milestones, or one whose explanation belongs in the bracket. This fixed shape is deliberate and overrides the vary-the-format guidance below for Section 6, the same way Section 3's tables do.
+
 ## Timeline: placing the deliverables
 
 Section 7 is not a restatement of the phase start/end dates already Found in Section 4 or Section 1 — it's where every task from Section 4's breakdown actually gets put on the calendar. Group by sprint or week-range, not by deliverable, since a designer reading this wants to know what's happening when.
@@ -190,7 +219,7 @@ Neither format should carry the whole document. A plan written entirely in parag
 - **Reach for prose** when the value is in the connective reasoning, not the items themselves: why the design problem is what it is, how a milestone was inferred from a contract clause, what a stakeholder's frustration implies about priorities. Collapsing that into bullet fragments strips out the "because," which is usually the point.
 - **Reach for a table** only when you have several items that share the same 2–4 attributes and a reader will want to compare across rows — the gap register is the clearest example. Don't reach for a table just because a list has gotten long.
 
-In practice, most sections read best as a short paragraph of framing followed by a list where one is genuinely warranted, occasionally closed out with a sentence that draws the conclusion — paragraph, list, paragraph, not list-only or prose-only. A section that's naturally just two or three sentences doesn't need to manufacture a list to look structured; a section that's naturally a roster or a checklist doesn't need to be dressed up in false narrative. Let the content pick the shape, and vary it enough across the document that no two consecutive sections look identical.
+In practice, most sections read best as a short paragraph of framing followed by a list where one is genuinely warranted, occasionally closed out with a sentence that draws the conclusion — paragraph, list, paragraph, not list-only or prose-only. A section that's naturally just two or three sentences doesn't need to manufacture a list to look structured; a section that's naturally a roster or a checklist doesn't need to be dressed up in false narrative. Let the content pick the shape, and vary it enough across the document that no two consecutive sections look identical. Sections 3 and 6 are the standing exceptions — the roster is always tables, milestones are always a chronological bullet list — so read the variation rule as applying to everything around them.
 
 ## Length
 
