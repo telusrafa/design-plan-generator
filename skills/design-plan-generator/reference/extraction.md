@@ -40,9 +40,10 @@ This section is written as four subsections rather than one undifferentiated blo
 ## 3 — Stakeholders and project structure
 
 - Who requested or signed the source document?
+- Who is client-side and who is internal/agency-side? Sort every named person into one of these two groups as you extract — this split drives the two-table structure in `writing-the-plan.md`.
 - How are roles indicated — explicit labels (requestor, stakeholder, approver, internal), or only names and titles from which seniority has to be inferred?
 - What does any approval or sign-off table reveal about the real decision-maker? A dated sign-off block is more reliable evidence than a job title.
-- What agency-side staffing is described — roles, FTE allocation, percentage of time by week? (This staffing picture is also what you'll check task-breakdown day estimates against in Pass 4 — note it with that reuse in mind.)
+- What agency-side staffing is described — roles, FTE allocation, percentage of time by week? (This staffing picture is also what you'll check task-breakdown day estimates against in Pass 4, and belongs in the internal team's Notes column here — note it with that reuse in mind.)
 - What methodology is named, or implied by deliverable cadence — sprints, phases, waterfall milestones?
 - What ceremonies or meeting cadences are specified?
 - What tool links are provided (Figma, Jira, Drive, Slack), and which are marked as still to be confirmed rather than genuinely absent?

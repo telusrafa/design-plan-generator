@@ -17,6 +17,8 @@ make sense. Skip it when the subsections speak for themselves.]
 ### Pain points
 ### Successful outcome
 ## 3 — Stakeholders and project structure
+### Client team
+### Internal team
 ## 4 — Deliverables and scope
 ## 5 — Constraints
 ### General
@@ -56,7 +58,7 @@ cited by at least one superscript somewhere above, and every such
 superscript above should resolve to a number here.]
 ```
 
-Section content follows the categories in `extraction.md`. Conflicts the user resolved don't get a section of their own — they're settled facts now, tagged in place inline with what they superseded (see the status vocabulary in `../SKILL.md`). Sections 2, 5, 8, and the gap register are the four with a fixed subsection split — drop any individual subsection if it's empty, same as any other section, but don't merge them back into one undifferentiated list.
+Section content follows the categories in `extraction.md`. Conflicts the user resolved don't get a section of their own — they're settled facts now, tagged in place inline with what they superseded (see the status vocabulary in `../SKILL.md`). Sections 2, 3, 5, 8, and the gap register are the five with a fixed subsection split — drop any individual subsection if it's empty, same as any other section, but don't merge them back into one undifferentiated list.
 
 ## Design problem: four subsections
 
@@ -90,6 +92,26 @@ the VP of Product Operations.¹
 The client considers this successful when staff stop fielding manual
 content requests and members self-serve instead.¹
 ```
+
+## Stakeholders: client and internal, as tables
+
+Section 3 splits the roster into two tables — client team and internal team — rather than one undifferentiated list, since a designer scanning this wants to know at a glance which side of the table a name sits on. Each table shares the same three columns: **Name**, **Role**, **Notes**. Notes is the catch-all for anything that doesn't fit the first two — context on why the person matters, FTE allocation or percentage of time (internal side), decision-making authority, a dated sign-off, or a flag that an entry is Inferred rather than Found.
+
+```
+### Client team
+
+| Name | Role | Notes |
+| --- | --- | --- |
+| Jane Doe | VP of Product Operations | Signed the SOW; primary point of contact¹ |
+
+### Internal team
+
+| Name | Role | Notes |
+| --- | --- | --- |
+| John Smith | Design Lead | 50% allocation, weeks 1–6¹ |
+```
+
+Drop a table entirely if the source gives nothing for that side. An internal staffing table with only roles and allocation, no names yet, is still worth including; a client table with neither names nor titles is a gap for the register, not a table with a blank row. Methodology and cadence notes — sprints vs. waterfall, ceremonies, tool links — stay below the tables as prose or a short list, exactly as before; the tables replace only the roster itself.
 
 ## Deliverables: task breakdown
 
