@@ -159,6 +159,27 @@ A simple table (Sprint | Tasks | Notes) is an acceptable substitute only when th
 
 Close each phase's grouping with the reconciliation line from `derive.md` — the day-estimate total against what that phase's timeline and staffing actually support, stated plainly whether it's comfortable, tight, or over-allocated.
 
+## Additional insights: bullets, and unmistakable AI proposals
+
+Section 8 renders as bullet lists in both subsections — General and Design-related — never prose paragraphs. This is a scan section: a designer should be able to run down it in seconds, not read it as narrative.
+
+The Design-related subsection carries two different kinds of content, and they should look different on the page so neither gets mistaken for the other:
+
+- **Gap-driven proactive suggestions** (see "Proactive suggestions" in `derive.md`) — a kickoff alignment session, a prioritisation workshop — close a hole the source itself left open. These read like ordinary Proposed content, tagged inline the same as anywhere else in the plan.
+- **Market-driven opportunities** (see "Market-driven opportunities" in `derive.md`) — ideas with no basis in any source, grounded instead in your own market or competitive research, meant to wow the client or spark the designer's own thinking. Propose these even when they fall outside the stated scope — say so plainly rather than dropping a good idea for not fitting the SOW. Because nothing here traces to a source, lead each one with a bold **Proposed** tag rather than the ordinary inline bracket, so it's unmistakable at a glance that this is the AI's own idea and not something the client asked for.
+
+```
+### Design-related
+
+- A prioritisation workshop would help before Sprint 1 starts. [Proposed — no priority
+  signal anywhere in the deliverables list, and three of five items look equally urgent.]
+- **Proposed:** Competitors in this space have moved from filter-only discovery to an
+  AI-assisted search bar — this could be a strong differentiator here even though it
+  falls outside the current scope. [Grounded in a quick market scan of comparable
+  member-portal products; worth raising with the client as a Phase 2 idea rather than
+  something to build into the current SOW.]
+```
+
 ## Gaps to close: three kinds, not one list
 
 Classify every gap that survived Pass 3's triage into exactly one of three buckets, using whichever bucket names the actual missing thing rather than the deliverable it happens to affect:

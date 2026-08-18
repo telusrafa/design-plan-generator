@@ -28,6 +28,12 @@ While placing tasks on the timeline, add up each phase's day-estimate subtotals 
 
 Where the source has a structural gap, name the thing that would close it: a kickoff alignment session when there's no stakeholder map, a prioritisation workshop when everything is due at once with no priority signal, an asset request when no design system is referenced. Each suggestion states the gap it addresses, inline. These are secondary to the design-task starts above — include one only if it isn't already fully captured by an entry in the gap register, so the same action doesn't appear twice under two different headings.
 
+## Market-driven opportunities
+
+This is a different kind of proposal from the gap-driven suggestions above, and it doesn't require a gap to exist. Do a lightweight market or competitive scan — what comparable products are doing, what's shifted in the client's category, what pattern from an adjacent industry could apply here — and propose at least one genuinely new idea the source never mentions. The goal is to wow the client and give the designer a spark to build on, not to stay inside the stated scope, so don't self-censor into only safe, in-scope ideas: if a strong idea sits outside scope, propose it anyway and say so plainly rather than quietly dropping it.
+
+Every idea here needs its reasoning shown inline — what you observed and why it applies to this client specifically, not a generic industry trend restated without a connection to the project. And because these ideas exist nowhere in any source, mark them unmistakably as your own proposal: lead the bullet with a bold **Proposed** tag rather than the ordinary inline bracket used elsewhere in the plan, so a designer skimming the section can never mistake your idea for something the client actually asked for. See "Additional insights: bullets, and unmistakable AI proposals" in `writing-the-plan.md` for the exact format.
+
 ## If there's no timeline
 
 If you have no timeline and no cadence, don't invent a sprint grid, and don't reconcile against available time since there's nothing to reconcile against. Provide the task/subtask breakdown and day estimates and dependency order without forcing them onto dates, and note in the Timeline section that sequencing and reconciliation are both unblocked as soon as dates arrive. "Choosing what to start with" still works without a timeline — pick from whatever has no dependencies in the deliverables breakdown itself.
