@@ -140,24 +140,35 @@ Skip the task breakdown only for a deliverable that's genuinely atomic and non-d
 
 ## Timeline: placing the deliverables
 
-Section 7 is not a restatement of the phase start/end dates already Found in Section 4 or Section 1 — it's where every task from Section 4's breakdown actually gets put on the calendar. Group by sprint or week-range, not by deliverable, since a designer reading this wants to know what's happening when.
+Section 7 is not a restatement of the phase start/end dates already Found in Section 4 or Section 1 — it's where every task from Section 4's breakdown actually gets put on the calendar.
 
-Default to a grouped list rather than a table or a chart:
+Default to a table with deliverables as rows and sprints as columns: first column header is **Deliverable**, each following column header is a sprint (with its week range), and each cell holds what happens for that deliverable in that sprint — blank if there's no activity that sprint. This gives a designer a visible timeline at a glance: scan a row to see how a deliverable moves across sprints, scan a column to see everything landing in a given sprint.
 
 ```
 **Phase 1 — Discovery (6 weeks / 3 sprints)**
 
-- Sprint 1 (Weeks 1–2): outcomes workshop, content audit, stakeholder interviews kick off
-- Sprint 2 (Weeks 3–4): content model, design audit + wireframes, CMS shortlist
-- Sprint 3 (Weeks 5–6): concept testing, hi-fi mockups, feature prioritization, Phase 2 work plan drafted
+| Deliverable | Sprint 1 (Weeks 1–2) | Sprint 2 (Weeks 3–4) | Sprint 3 (Weeks 5–6) |
+| --- | --- | --- | --- |
+| Outcomes workshop | Kickoff | | |
+| Content audit | In progress | | |
+| Stakeholder interviews | Kick off | | |
+| Content model | | In progress | |
+| Design audit + wireframes | | In progress | |
+| CMS shortlist | | In progress | |
+| Concept testing | | | In progress |
+| Hi-fi mockups | | | In progress |
+| Feature prioritization | | | In progress |
+| Phase 2 work plan | | | Drafted |
 
 Estimated: 24–29 designer-days across 6 weeks with 1 designer allocated full-time
 — comfortably inside the available time.
 ```
 
-A simple table (Sprint | Tasks | Notes) is an acceptable substitute only when the timeline is short and every sprint's task list is genuinely brief enough not to wrap. Avoid a week-by-week Gantt-style grid, and avoid a Mermaid or similar chart block: past a handful of columns a grid wraps or truncates in most places a designer will actually open this document (Word, Notion, a plain markdown preview), and a chart block simply won't render at all unless the viewer happens to support that syntax. A list degrades gracefully everywhere; a grid or a chart doesn't.
+Use one table per phase when a project spans multiple phases with different sprint cadences — don't force phases with different sprint counts into a single table. Keep rows at the deliverable level rather than one row per task or subtask, so the table doesn't grow past what's legible; if a deliverable's work genuinely splits across sprints in a way worth flagging, say so inline in the cell (e.g., "audit" in one column, "model" in the next) rather than adding a row per subtask.
 
-Close each phase's grouping with the reconciliation line from `derive.md` — the day-estimate total against what that phase's timeline and staffing actually support, stated plainly whether it's comfortable, tight, or over-allocated.
+Fall back to a grouped list only when there are too many deliverables or sprints for a table to stay usable — past roughly a dozen deliverables or more than 4–5 sprints, a sparse grid stops being scannable and a list groups better. Avoid a Mermaid or similar chart block regardless: a chart block simply won't render at all unless the viewer happens to support that syntax, where a markdown table degrades gracefully everywhere (Word, Notion, a plain markdown preview).
+
+Close each phase's table (or grouping, if using the list fallback) with the reconciliation line from `derive.md` — the day-estimate total against what that phase's timeline and staffing actually support, stated plainly whether it's comfortable, tight, or over-allocated.
 
 ## Gaps to close: three kinds, not one list
 
