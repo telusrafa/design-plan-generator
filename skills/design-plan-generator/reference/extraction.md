@@ -94,7 +94,7 @@ Sort what you find into two buckets as you go — they end up as two separate su
 
 ## 8 — Additional insights and opportunities
 
-Sort these into General and Design-related too, same two subsections and same rule of thumb as category 5: does it change what gets designed or how (Design-related), or is it business/competitive/organizational context that doesn't touch the interface (General)? An insight can legitimately produce one line in each bucket — a competitor's business model is General, but the UX implication you draw from it is Design-related — rather than forcing one framing to carry both halves.
+Sort these into General and Design-related too, same two subsections and same rule of thumb as category 5: does it change what gets designed or how (Design-related), or is it business/competitive/organizational context that doesn't touch the interface (General)? An insight can legitimately produce one line in each bucket — a competitor's business model is General, but the UX implication you draw from it is Design-related — rather than forcing one framing to carry both halves. Both subsections render as bullet lists, not prose — this is a scan section, not a narrative one.
 
 **General:**
 - What's mentioned as adjacent but not in scope — "eventually we'd also like..." — when the thing itself is a business/organizational move rather than an interface change?
@@ -107,3 +107,4 @@ Sort these into General and Design-related too, same two subsections and same ru
 - What informal asides reveal an unresolved design ambiguity or a suggested-but-unscoped interface idea — "maybe we surface a recommendation engine eventually"?
 - What does member/user survey or research data in the source imply about design priorities specifically?
 - *[construct]* Where are the gaps in the source document itself — no stakeholder map, unclear priorities, no design system — that warrant a proactive suggestion such as a kickoff alignment session, a prioritisation workshop, or a request for missing design assets?
+- *[construct]* What genuinely new idea — grounded in market or competitive research you do yourself, not anything in the source — could wow the client or spark the designer's own thinking? Propose it even if it falls outside the stated scope; this bullet exists for inspiration, not scope compliance. Handled fully in Pass 4 (`derive.md`) and always tagged Proposed, unmistakably marked as your own idea rather than something the client asked for.
