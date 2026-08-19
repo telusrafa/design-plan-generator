@@ -15,6 +15,9 @@ Run this before delivering the plan:
 - Did I reconcile each phase's deliverable-day subtotal against its actual available time and staffing in Section 7, and say so if they don't roughly match?
 - Is the timeline presented as a table with deliverables as rows and sprints as columns (falling back to a grouped list only when there are too many deliverables or sprints to stay legible), rather than a Mermaid or similar chart block that won't render everywhere?
 - Are both Section 5 and Section 8 correctly split into General and Design-related, with nothing sitting in the wrong bucket just because it was easier to leave where the source put it?
+- Is Section 6 a flat chronological bullet list — one milestone per bullet, name first, then when it lands — rather than prose or a table?
+- Does every milestone bullet say whether it's a hard approval gate or just a checkpoint, including an explicit note where no sign-off is named?
+- Does Section 6 name the checkpoints and gates rather than restating the schedule Section 7 already lays out?
 - Is Section 5 a flat bullet list under each subsection — one constraint per bullet, tag and reasoning inline — rather than a framing paragraph, a prose block, or a table?
 - Does every conditional exclusion in Section 5 say so on its own bullet, instead of reading like a hard wall?
 - Is Section 8 rendered as bullets in both subsections, and does it include at least one market-research-grounded opportunity meant to wow the client or inspire the designer — proposed even if it falls outside scope?
