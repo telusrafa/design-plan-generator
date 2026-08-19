@@ -21,6 +21,8 @@ make sense. Skip it when the subsections speak for themselves.]
 ### Internal team
 ## 4 — Deliverables and scope
 ## 5 — Constraints
+[Both subsections are bullet lists — one constraint per bullet, tag and
+reasoning inline, no framing paragraph above them.]
 ### General
 ### Design-related
 ## 6 — Design milestones
@@ -166,27 +168,84 @@ Order chronologically. A milestone with no date sits where its sequence puts it,
 Keep the boundary with Section 7 clean: Section 6 names the client-visible checkpoints and the approval gates between phases, Section 7 places Section 4's tasks on the calendar around them. A milestone list that walks through the whole schedule is doing Section 7's job twice — name the gate and let the timeline carry the sequencing.
 
 Keep the list flat, too — a milestone needing sub-bullets is usually two milestones, or one whose explanation belongs in the bracket. This fixed shape is deliberate and overrides the vary-the-format guidance below for Section 6, the same way Section 3's tables do.
+## Constraints: a bullet list under each subsection
+
+Section 5 is a checklist, not an argument. A designer reads it once to find out what they can't do, then re-opens it mid-sprint to check a single thing — so both subsections are written as flat bullet lists, one constraint per bullet, tag and reasoning inline. No framing paragraph above the bullets, no prose that absorbs three constraints into a narrative, and no table: constraints don't share a common set of attributes worth comparing across rows.
+
+Each bullet leads with the constraint itself, short enough to scan, followed by whatever the designer needs in order to act on it — a superscript for a Found one, bracketed reasoning for anything else. When an exclusion is conditional rather than hard, say so in the same bullet; that distinction is the most useful thing this section carries (see "Constraints" in `extraction.md`).
+
+```
+## 5 — Constraints
+
+### General
+- Scope changes require a written change order countersigned by both parties —
+  nothing moves on a verbal go-ahead.¹ (§9.1)
+- Client review windows run 5 business days per deliverable.¹ (§9.3)
+- Phase 2 budget isn't committed yet; it sits in next fiscal year. [Inferred —
+  the kickoff notes² mention "next year's cycle" for anything past the pilot.]
+
+### Design-related
+- Must build on the existing CEATI design system; no new visual language.¹
+- WCAG 2.1 AA is the contracted baseline; AAA was quoted as a separate line
+  item.¹ (§6.3)
+- Native mobile apps are out of scope — conditional, not hard: "we could
+  accommodate it, it would add time and cost."¹
+```
+
+Keep the lists flat — a constraint that needs sub-bullets to explain itself is usually two constraints, or one whose explanation belongs in the bracket. A subsection with a single constraint is a one-item list, not a paragraph dressed up to look fuller. This fixed shape is deliberate and overrides the vary-the-format guidance below for Section 5, the same way Section 3's tables do.
 
 ## Timeline: placing the deliverables
 
-Section 7 is not a restatement of the phase start/end dates already Found in Section 4 or Section 1 — it's where every task from Section 4's breakdown actually gets put on the calendar. Group by sprint or week-range, not by deliverable, since a designer reading this wants to know what's happening when.
+Section 7 is not a restatement of the phase start/end dates already Found in Section 4 or Section 1 — it's where every task from Section 4's breakdown actually gets put on the calendar.
 
-Default to a grouped list rather than a table or a chart:
+Default to a table with deliverables as rows and sprints as columns: first column header is **Deliverable**, each following column header is a sprint (with its week range), and each cell holds what happens for that deliverable in that sprint — blank if there's no activity that sprint. This gives a designer a visible timeline at a glance: scan a row to see how a deliverable moves across sprints, scan a column to see everything landing in a given sprint.
 
 ```
 **Phase 1 — Discovery (6 weeks / 3 sprints)**
 
-- Sprint 1 (Weeks 1–2): outcomes workshop, content audit, stakeholder interviews kick off
-- Sprint 2 (Weeks 3–4): content model, design audit + wireframes, CMS shortlist
-- Sprint 3 (Weeks 5–6): concept testing, hi-fi mockups, feature prioritization, Phase 2 work plan drafted
+| Deliverable | Sprint 1 (Weeks 1–2) | Sprint 2 (Weeks 3–4) | Sprint 3 (Weeks 5–6) |
+| --- | --- | --- | --- |
+| Outcomes workshop | Kickoff | | |
+| Content audit | In progress | | |
+| Stakeholder interviews | Kick off | | |
+| Content model | | In progress | |
+| Design audit + wireframes | | In progress | |
+| CMS shortlist | | In progress | |
+| Concept testing | | | In progress |
+| Hi-fi mockups | | | In progress |
+| Feature prioritization | | | In progress |
+| Phase 2 work plan | | | Drafted |
 
 Estimated: 24–29 designer-days across 6 weeks with 1 designer allocated full-time
 — comfortably inside the available time.
 ```
 
-A simple table (Sprint | Tasks | Notes) is an acceptable substitute only when the timeline is short and every sprint's task list is genuinely brief enough not to wrap. Avoid a week-by-week Gantt-style grid, and avoid a Mermaid or similar chart block: past a handful of columns a grid wraps or truncates in most places a designer will actually open this document (Word, Notion, a plain markdown preview), and a chart block simply won't render at all unless the viewer happens to support that syntax. A list degrades gracefully everywhere; a grid or a chart doesn't.
+Use one table per phase when a project spans multiple phases with different sprint cadences — don't force phases with different sprint counts into a single table. Keep rows at the deliverable level rather than one row per task or subtask, so the table doesn't grow past what's legible; if a deliverable's work genuinely splits across sprints in a way worth flagging, say so inline in the cell (e.g., "audit" in one column, "model" in the next) rather than adding a row per subtask.
 
-Close each phase's grouping with the reconciliation line from `derive.md` — the day-estimate total against what that phase's timeline and staffing actually support, stated plainly whether it's comfortable, tight, or over-allocated.
+Fall back to a grouped list only when the table stops being legible — gauge that by total cell count (deliverables × sprints), not sprint count alone, since a narrow table with many sprints but few deliverables can stay scannable well past 5 columns, while a wide one with many deliverables gets unreadable much sooner. As a rule of thumb, fall back once deliverables × sprints exceeds roughly 40–50 cells, or deliverables alone exceed a dozen, whichever comes first. Avoid a Mermaid or similar chart block regardless: a chart block simply won't render at all unless the viewer happens to support that syntax, where a markdown table degrades gracefully everywhere (Word, Notion, a plain markdown preview).
+
+Close each phase's table (or grouping, if using the list fallback) with the reconciliation line from `derive.md` — the day-estimate total against what that phase's timeline and staffing actually support, stated plainly whether it's comfortable, tight, or over-allocated.
+
+## Additional insights: bullets, and unmistakable AI proposals
+
+Section 8 renders as bullet lists in both subsections — General and Design-related — never prose paragraphs. This is a scan section: a designer should be able to run down it in seconds, not read it as narrative.
+
+The Design-related subsection carries two different kinds of content, and they should look different on the page so neither gets mistaken for the other:
+
+- **Gap-driven proactive suggestions** (see "Proactive suggestions" in `derive.md`) — a kickoff alignment session, a prioritisation workshop — close a hole the source itself left open. These read like ordinary Proposed content, tagged inline the same as anywhere else in the plan.
+- **Market-driven opportunities** (see "Market-driven opportunities" in `derive.md`) — ideas with no basis in any source, grounded instead in your own market or competitive research, meant to wow the client or spark the designer's own thinking. Propose these even when they fall outside the stated scope — say so plainly rather than dropping a good idea for not fitting the SOW. Because nothing here traces to a source, lead each one with a bold **Proposed** tag rather than the ordinary inline bracket, so it's unmistakable at a glance that this is the AI's own idea and not something the client asked for.
+
+```
+### Design-related
+
+- A prioritisation workshop would help before Sprint 1 starts. [Proposed — no priority
+  signal anywhere in the deliverables list, and three of five items look equally urgent.]
+- **Proposed:** Competitors in this space have moved from filter-only discovery to an
+  AI-assisted search bar — this could be a strong differentiator here even though it
+  falls outside the current scope. [Grounded in a quick market scan of comparable
+  member-portal products; worth raising with the client as a Phase 2 idea rather than
+  something to build into the current SOW.]
+```
 
 ## Gaps to close: three kinds, not one list
 
@@ -219,7 +278,7 @@ Neither format should carry the whole document. A plan written entirely in parag
 - **Reach for prose** when the value is in the connective reasoning, not the items themselves: why the design problem is what it is, how a milestone was inferred from a contract clause, what a stakeholder's frustration implies about priorities. Collapsing that into bullet fragments strips out the "because," which is usually the point.
 - **Reach for a table** only when you have several items that share the same 2–4 attributes and a reader will want to compare across rows — the gap register is the clearest example. Don't reach for a table just because a list has gotten long.
 
-In practice, most sections read best as a short paragraph of framing followed by a list where one is genuinely warranted, occasionally closed out with a sentence that draws the conclusion — paragraph, list, paragraph, not list-only or prose-only. A section that's naturally just two or three sentences doesn't need to manufacture a list to look structured; a section that's naturally a roster or a checklist doesn't need to be dressed up in false narrative. Let the content pick the shape, and vary it enough across the document that no two consecutive sections look identical. Sections 3 and 6 are the standing exceptions — the roster is always tables, milestones are always a chronological bullet list — so read the variation rule as applying to everything around them.
+In practice, most sections read best as a short paragraph of framing followed by a list where one is genuinely warranted, occasionally closed out with a sentence that draws the conclusion — paragraph, list, paragraph, not list-only or prose-only. A section that's naturally just two or three sentences doesn't need to manufacture a list to look structured; a section that's naturally a roster or a checklist doesn't need to be dressed up in false narrative. Let the content pick the shape, and vary it enough across the document that no two consecutive sections look identical. Sections 3 and 5 are the standing exceptions — the roster is always tables, Constraints is always bullet lists — so read the variation rule as applying to everything around them.
 
 ## Length
 

@@ -13,11 +13,15 @@ Run this before delivering the plan:
 - Does every deliverable in Section 4 have a task/subtask breakdown with a day-range estimate (or an explicit one-line reason it was skipped), and is the estimating basis stated once near the top rather than repeated on every line?
 - Does Section 7 actually place Section 4's tasks on the calendar, sprint by sprint or week by week, rather than just restating the phase start/end dates?
 - Did I reconcile each phase's deliverable-day subtotal against its actual available time and staffing in Section 7, and say so if they don't roughly match?
-- Is the timeline presented as a grouped list (or a short table, only if it won't wrap) rather than a week-by-week grid or a chart block that won't render everywhere?
+- Is the timeline presented as a table with deliverables as rows and sprints as columns (falling back to a grouped list only when there are too many deliverables or sprints to stay legible), rather than a Mermaid or similar chart block that won't render everywhere?
 - Are both Section 5 and Section 8 correctly split into General and Design-related, with nothing sitting in the wrong bucket just because it was easier to leave where the source put it?
 - Is Section 6 a flat chronological bullet list — one milestone per bullet, name first, then when it lands — rather than prose or a table?
 - Does every milestone bullet say whether it's a hard approval gate or just a checkpoint, including an explicit note where no sign-off is named?
 - Does Section 6 name the checkpoints and gates rather than restating the schedule Section 7 already lays out?
+- Is Section 5 a flat bullet list under each subsection — one constraint per bullet, tag and reasoning inline — rather than a framing paragraph, a prose block, or a table?
+- Does every conditional exclusion in Section 5 say so on its own bullet, instead of reading like a hard wall?
+- Is Section 8 rendered as bullets in both subsections, and does it include at least one market-research-grounded opportunity meant to wow the client or inspire the designer — proposed even if it falls outside scope?
+- Does every market-driven opportunity in Section 8 lead with a bold **Proposed** tag, clearly distinguishing it from gap-driven suggestions and from anything actually said in a source?
 - Is the cause/hypothesis kept separate from the pain points themselves in Section 2, rather than the two being merged into one paragraph?
 - Are the gaps correctly split into Operational, Technical, and Strategic, with empty buckets dropped rather than left as empty headers?
 - Does "Suggested next actions" lead with actual design tasks pulled from Section 4, each with a one-line reason it's near the top — not a list of meetings and confirmations with no design work in it?
