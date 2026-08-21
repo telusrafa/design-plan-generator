@@ -18,7 +18,7 @@ The one narrow exception: a discrepancy with no substantive content — a name s
 
 Urgency (does this gap get asked about at all):
 
-- **Blocking** — the designer cannot start, or will plan wrongly, without this. No timeline. No named approver when there are sign-off gates. Unclear whether a major deliverable is in scope.
+- **Blocking** — the designer cannot start, or will plan wrongly, without this. No timeline. No named approver when there are sign-off gates. Unclear whether a major deliverable is in scope. No known designer headcount when the day estimates and timeline in Pass 4 depend on it — defaulting to solo when the team is actually three people (or the reverse) skews the whole schedule, not just one line item.
 - **Degrading** — the plan works without it but is weaker. Missing success metric. No stated methodology.
 - **Cosmetic** — leave it. Don't ask.
 

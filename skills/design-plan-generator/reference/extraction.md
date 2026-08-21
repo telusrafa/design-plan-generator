@@ -44,6 +44,7 @@ This section is written as four subsections rather than one undifferentiated blo
 - How are roles indicated — explicit labels (requestor, stakeholder, approver, internal), or only names and titles from which seniority has to be inferred?
 - What does any approval or sign-off table reveal about the real decision-maker? A dated sign-off block is more reliable evidence than a job title.
 - What agency-side staffing is described — roles, FTE allocation, percentage of time by week? (This staffing picture is also what you'll check task-breakdown day estimates against in Pass 4, and belongs in the internal team's Notes column here — note it with that reuse in mind.)
+- Specifically, how many designers are staffed on this project — not just total agency headcount? This is a distinct, load-bearing number: it determines how much design work Pass 4 can reasonably propose per sprint and how much the timeline compresses or stretches, so if no source states it, it belongs in the question round (see `conflicts-and-gaps.md`) rather than being silently assumed.
 - What methodology is named, or implied by deliverable cadence — sprints, phases, waterfall milestones?
 - What ceremonies or meeting cadences are specified?
 - What tool links are provided (Figma, Jira, Drive, Slack), and which are marked as still to be confirmed rather than genuinely absent?
